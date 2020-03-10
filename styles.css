@@ -1,0 +1,26 @@
+body {
+  background-color: honeydew;
+}
+
+.hero {
+  color: red;
+  background-color: lavender;
+  padding: 10px 50px;
+}
+
+.wonderwoman {
+  color: cornflowerblue;
+}
+
+.content {
+  padding: 10px 50px;
+  background-color: yellow;
+  margin: 50px 0;
+}
+.superman {
+  color: black;
+}
+
+.villain {
+  color: red;
+}
