@@ -1,0 +1,123 @@
+/* Home Page */
+.mainHero {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  font-style: italic;
+  color: darkgreen;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  margin-top: -400px;
+  margin-left: -260px;
+  opacity: 0.9;
+  padding: 30px;
+  border-radius: 400px;
+}
+.LZstyle {
+  color: green;
+  font-family: fantasy;
+  font-size: xx-large;
+}
+.LZstyle:hover {
+  color: white;
+}
+
+/* About Page */
+.mainHero1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  margin-top: -160;
+  margin-left: -700px;
+  opacity: 0.8;
+  padding: 30px;
+}
+.LZAbout {
+  padding: 50px;
+}
+
+/* Home Page*/
+.hero-btn {
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+.hero-btn:hover {
+  background-color: black;
+  color: white;
+}
+.nav-link:hover {
+  border-bottom: 3px solid forestgreen;
+}
+.jumbotron {
+  background-image: url(https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+}
+.jumbotron2 {
+  background-color: white;
+  height: 100vh;
+}
+
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
+  background-color: rgb(86, 160, 119);
+  color: whitesmoke;
+  opacity: 0.5;
+}
+
+/* Add a color to the active/current link */
+.pill-nav a.active {
+  background-color: rgb(8, 110, 8);
+  color: white;
+}
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.myimage {
+  width: 180vh;
+  position: center;
+}
+
+.jumbotron_About {
+  background-image: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/50763236_10157561199192788_5000973839727853568_o.jpg?_nc_cat=108&_nc_sid=8024bb&_nc_oc=AQnbXVdKwjarqgQH1exKHret6Qs5FkAbOpZoWZDWlSy_K737ibBdDBbwXg1J0o6XyMVpthInjU5MGIlTZ7Yes69L&_nc_ht=scontent-sjc3-1.xx&oh=ed04dbe619cf1e15873c729ed48ee2da&oe=5E96FD88);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: auto;
+  margin-bottom: 0;
+  opacity: 0.7;
+}
+.jumbotron_Contact {
+  background-image: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/35282195_394049511099580_4244772069046222848_o.jpg?_nc_cat=101&_nc_sid=8024bb&_nc_oc=AQktRKIMsHGXzszgaQNZtBScYzN2ILKvNzlGyUOB5Tfi-bZkofh04ZoiiPXcVERcSy5EHAhxvtfQiAijQE2L7Dvm&_nc_ht=scontent-sjc3-1.xx&oh=5602cb1853c902b31752db8069cd7202&oe=5E990666);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: auto;
+  margin-bottom: 0;
+  opacity: 0.7;
+}
