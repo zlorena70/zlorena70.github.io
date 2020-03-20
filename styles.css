@@ -1,4 +1,21 @@
 /* Home Page */
+
+@keyframes typewriter {
+	from {
+		width: 0;
+	}
+	to {
+		width: 85%;
+	}
+}
+@keyframes blinkTextCursor {
+	from {
+		border-right-color: green;
+	}
+	to {
+		border-right-color: transparent;
+	}
+}
 .mainHero {
 	text-align: center;
 	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
@@ -31,24 +48,7 @@
 	border-right: .15em solid green;
 	margin: 0 auto;
 	letter-spacing: .03em;
-	animation: typing 3.5s steps (30, end), blink-caret .5s step-end infinite;
-}
-@keyframes typing {
-	from {
-		width: 0;
-	}
-	to {
-		width: 100%;
-	}
-}
-@keyframes blink-caret {
-	from,
-	to {
-		border-color: transparent;
-	}
-	50% {
-		border-color: green;
-	}
+	animation: typewriter .5s steps(8) 1s 1 normal both, blinkTextCursor 750ms steps(100) infinite normal;
 }
 
 .mainHero_Home {
