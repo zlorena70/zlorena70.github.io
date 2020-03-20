@@ -1,3 +1,39 @@
+html {
+	scroll-behavior: smooth;
+}
+.navbar {
+	z-index: 9999;
+}
+/* NavBar */
+
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	font-size: 17px;
+	border-radius: 5px;
+}
+
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
+	background-color: rgb(86, 160, 119);
+	color: whitesmoke;
+	opacity: 0.5;
+}
+
+/* Add a color to the active/current link */
+.pill-nav a.active {
+	background-color: rgb(8, 110, 8);
+	color: white;
+}
+.navbar {
+	position: fixed;
+	width: 100%;
+}
+
 /* Home Page */
 
 @keyframes typewriter {
@@ -152,31 +188,18 @@
 }
 .jumbotron2 {
 	background-color: white;
-	height: 100vh;
+	height: 50vh;
+	margin-bottom: -320px;
 }
-
-/* Style the links inside the pill navigation menu */
-.pill-nav a {
-	display: inline-block;
-	color: black;
-	text-align: center;
-	padding: 14px;
-	text-decoration: none;
-	font-size: 17px;
-	border-radius: 5px;
-}
-
-/* Change the color of links on mouse-over */
-.pill-nav a:hover {
-	background-color: rgb(86, 160, 119);
-	color: whitesmoke;
-	opacity: 0.5;
-}
-
-/* Add a color to the active/current link */
-.pill-nav a.active {
-	background-color: rgb(8, 110, 8);
-	color: white;
+.jumbotron3 {
+	background-color: white;
+	height: 50vh;
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-right: 100px;
+	padding-bottom: 300px;
+	border: green solid;
+	border-radius: 50px;
 }
 .myVideo {
 	position: static;
