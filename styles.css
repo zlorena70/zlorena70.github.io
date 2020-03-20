@@ -56,16 +56,49 @@
 	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
 	font-style: italic;
 	color: white;
-	background-color: black;
+
 	position: relative;
 	top: -150px;
-	bottom: 50%;
 	left: 500px;
 	width: 400px;
-	height: 200px;
+	height: 122px;
 	margin-top: -30;
 	margin-left: -500px;
 	opacity: 0.8;
+	padding: 30px;
+	border-radius: 30px;
+}
+.mainHero_Home_About {
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+	font-style: italic;
+	color: white;
+	background-color: black;
+	position: relative;
+
+	left: 500px;
+	width: 1000px;
+	height: 122px;
+	margin-top: -30;
+	margin-left: -500px;
+	opacity: 1.5;
+	padding: 30px;
+	border-radius: 30px;
+}
+.mainHero_Home_Lets_Connect {
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+	font-style: italic;
+	color: white;
+	background-color: black;
+	position: relative;
+	top: 65px;
+	left: 500px;
+	width: 1000px;
+	height: 122px;
+	margin-top: -50;
+	margin-left: -500px;
+	opacity: 1.5;
 	padding: 30px;
 	border-radius: 30px;
 }
