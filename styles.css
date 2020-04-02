@@ -1,4 +1,19 @@
 /* Page */
+html,
+body {
+	font-family: 'Raleway', sans-serif;
+
+	font-size: 18px;
+
+	color: black;
+}
+
+h1 {
+	font-weight: 200;
+}
+h1 {
+	font-size: 3.5em;
+}
 
 html {
 	scroll-behavior: smooth;
@@ -61,7 +76,7 @@ html {
 }
 .mainHero {
 	text-align: center;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+
 	font-style: italic;
 	color: darkgreen;
 	position: relative;
@@ -80,25 +95,26 @@ html {
 	left: 100px;
 	position: absolute;
 	white-space: nowrap;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 4.5em;
 }
-.typewriter {
+.txt-rotate {
+	font-style: italic;
 	color: #00c2cb;
-	top: -400px;
-	left: 100px;
-	position: absolute;
-	white-space: nowrap;
-	overflow: hidden;
 	border-right: .15em solid #00c2cb;
-	margin: 0 auto;
-	letter-spacing: .03em;
 	animation: typewriter .5s steps(8) 1s 1 normal both, blinkTextCursor 750ms steps(100) infinite normal;
+}
+.Divider-text {
+	font-style: normal;
+	font-weight: bolder;
 }
 
 .mainHero_Home {
 	text-align: center;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+
 	font-style: italic;
-	color: white;
+	color: #00c2cb;
 
 	position: relative;
 	top: -150px;
@@ -106,14 +122,14 @@ html {
 	width: 400px;
 	height: 122px;
 	margin-top: -30;
-	margin-left: -500px;
+	margin-left: -350px;
 	opacity: 0.8;
 	padding: 30px;
 	border-radius: 30px;
 }
 .mainHero_Home_About {
 	text-align: center;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+
 	font-style: italic;
 	color: white;
 	background-color: black;
@@ -130,8 +146,8 @@ html {
 }
 .mainHero_Home_Lets_Connect {
 	text-align: center;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-	font-style: italic;
+
+	font-style: normal;
 	color: white;
 	background-color: black;
 	position: relative;
@@ -167,19 +183,22 @@ html {
 
 .jumbotron {
 	background-repeat: no-repeat;
-	height: 130vh;
-	background-size: over;
-	background-position: center;
+	height: 190vh;
+	width: 174vh;
+	background-size: 0em;
+	background-position: 3em;
 	margin-bottom: 0;
+	margin-top: 0em;
 }
 .jumbotron2 {
 	background-color: white;
-	height: 50vh;
+	height: 75vh;
 	margin-bottom: -350px;
+	margin-top: -50px;
 }
 .jumbotron3 {
 	background-color: white;
-	height: 75vh;
+	height: 90vh;
 	padding-left: 100px;
 	padding-top: 50px;
 	padding-right: 100px;
@@ -275,9 +294,8 @@ html {
 }
 .text-black {
 	color: black;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-		'Helvetica Neue', sans-serif;
 }
+
 .col-md-7 {
 	margin-left: 500px;
 	margin-top: -150px;
@@ -303,6 +321,7 @@ html {
 	max-width: 84em;
 	margin: 0 auto;
 	padding: 0 3em;
+	display: inline-block;
 }
 
 .has-plant:before {
@@ -357,7 +376,7 @@ html {
 	border: 1px solid ivory;
 	border-radius: 50px;
 	box-shadow: 0 2px 5px rgba(25, 25, 25, .2);
-	position: absolute;
+	position: relative;
 	overflow: hidden;
 	z-index: 1;
 }
@@ -389,8 +408,11 @@ html {
 /* Contact Page  */
 
 .mb3 {
-	margin-top: 100px;
+	margin-top: -50px;
 	margin-bottom: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	max-width: 94%;
 }
 .mb4 {
 	margin-top: 50px;
@@ -401,9 +423,8 @@ html {
 }
 .form-group {
 	width: 800px;
-	margin-top: 2.3em;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-		'Helvetica Neue', sans-serif;
+	margin-top: 4em;
+	margin-left: 2.3em;
 	font-weight: bolder;
 	font-size: 1.5rem;
 }
@@ -411,8 +432,8 @@ html {
 .about-img2 {
 	position: absolute;
 	bottom: 50px;
-	top: 0px;
-	left: 850px;
-	width: 350px;
-	height: 350px;
+	top: 50px;
+	left: 800px;
+	width: 400px;
+	height: 400px;
 }
