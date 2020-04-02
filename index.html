@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+
+  
+
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -9,16 +12,35 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="styles.css" />
-  <title>Lorena Zapata, Growth Marketer</title>
+  
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="stylesheet" type="text/css" href="styles.css" />
+  
+   <title>Lorena Zapata, Growth Marketer</title>
   </div>
 </head>
 
 
 <body>
+  <!-- Javascript -->
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-75px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
 
   <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light ">
+
     <a class="navbar-brand LZstyle LZstyle:hover" href="index.html">Lorena Zapata</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,11 +58,10 @@
 
   <!-- Video Jumbotron  -->
 
-  <video class= "container-sm-fluid" width="100%"; height=auto !important; autoplay muted loop id="myVideo">
-    <source src="Content/video.mp4" type="video/mp4">
-  </video>
-  <div></div>
-  <div id="Home"></div>
+  <video  id ="Home" class= "container-sm-fluid" width="100%"; height=auto !important; autoplay muted loop id="myVideo">
+    <source src="Content/video.mp4" type="video/mp4" >
+  </video> 
+
   <div  class=" container-fluid">
     <div class="jumbotron jumbotron-fluid">
       <div class= "container">
@@ -49,12 +70,52 @@
             <div id="About Me"></div>
             <h1> About Me</h1>
           </div>
-        <h1 class="display-1 Video_Heading">Hello, I am </h1>
-        <h1 class="display-1 typewriter" > Lorena </h1>
+            <h1 class="display-1 Video_Heading">Hello, I am </h1>
+            <h1 class="display-1 typewriter" > Lorena </h1>
+      </div>
+    </div>
+
+    <!-- About Me -->
+
+    <div class="container align-center has-plant">
+      <div class="panel panel-padded panel-body"> 
+        <div class ="col-md-5">
+        <img class= "about-img" src="Content/2.png" type= "img">
+      </div>
+      <br> <div class="col-md-7 about-right">
+
+        <h2 class="color-3 section-title section-text align-center"> A <span style ="font-style: italic">Growing </span> Career</h2>
+        <p class="p-first text black mb2 "> Welcome to my page!  If you follow my journey, you will immediately see that it is one of <span style="color:#078a91; font-weight: bold; font-size: larger;">change</span>, <span style="color:#078a91; font-weight: bold; font-size: larger;">relentless drive</span>, and <span style="color:#078a91; font-weight: bold; font-size: larger;">positivity</span>. 
+          A native of Miami, Florida, I began studying classical music at the age of three. I later attended the Florida State University College of Music, aiming to pursue a career as an opera singer and voice professor while simultaneously attending the College of Social Sciences and Public Policy to study international affairs and communications. 
+          Soon after graduating in 2013, however, I had to cut short my musical career for unexpected medical reasons. 
+          But I discovered a blossoming career in <span style="color:#078a91; font-weight: bold; font-size: larger;">growth marketing and communications</span> , where I rekindled my passion for connection and storytelling.
+          Continuous learning is a great passion of mine and I sought new ways to increase skills such as: <span style="color:#078a91; font-weight: bold; font-size: larger;">HTML/CSS,
+          Google Analytics, Facebook Ads, Basic Graphic Design, SQL, Marketing Automation, GitHub, Email Marketing, and so much more.</span>
+        </p>
+        <p class="text-black"> If you're looking for a well-rounded, dedicated, and creative individual, don't hesitate to connect!</p>
+        <h3 class="color-3 social-link-text">
+          <button class= "btn btn-danger"> Email Me 
+          <a href="mailto:zlorena70@gmail.com"></a></button>
+        </h3>
+
+        <ul class="about-link">
+          <li><a href="https://www.instagram.com/zlorena70/"> <i class ="fa fa-instagram"></i></a></li>
+          <li><a href="https://twitter.com/zlorena70"> <i class ="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/zlorena70/"> <i class ="fa fa-linkedin"></i></a></li>
+          <li><a href="https://www.facebook.com/lorena.zapata"> <i class ="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.youtube.com/user/luckylolo13"> <i class ="fa fa-youtube"></i></a></li>
+        </ul>
+      </div>
+
+        </header>
       </div>
     </div>
   </div>
+  
 </div>
+
+<!-- Let's Connect -->
+
 <div  class=" container-fluid">
   <div class="jumbotron2 jumbotron-fluid">
     <div class= "container">
@@ -67,8 +128,11 @@
   </div>
 </div>
 </div>
-<div class="container jumbotron3"> <form>
+<div class=" mb3 container jumbotron3"> <form>
   <div class="form-group">
+    <div class ="col-md-5">
+      <img class= "about-img2" src="Content/7.png" type= "img">
+    </div>
     <div class="form-group">
       <label for="name">Name</label>
       <input type="text" class="form-control" id="exampleInputname">
@@ -76,16 +140,18 @@
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
-  </div>
   
-  <div class="mb-3">
+  
+  <div>
     <label for="validationTextarea">Message</label>
     <textarea class="form-control" id="validationTextarea" placeholder="Write your message here." required></textarea>
     <div class="invalid-feedback">
       Write your message here.
     </div>
   </div>
-  <button class="btn btn-primary" type="submit">Submit form</button>
+</div>
+  <div class= "mb4">
+  <button class="btn btn-danger" type="submit">Submit </button></div>
 </form>
 </div>
 
