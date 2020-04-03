@@ -1,3 +1,20 @@
+/* Page */
+html,
+body {
+	font-family: 'Raleway', sans-serif;
+
+	font-size: 18px;
+
+	color: black;
+}
+
+h1 {
+	font-weight: 200;
+}
+h1 {
+	font-size: 3.5em;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -11,7 +28,7 @@ html {
 
 /* NavBar */
 
-/* Style the links inside the pill navigation menu */
+/* To style the links inside the pill navigation menu */
 .pill-nav a {
 	display: inline-block;
 	color: black;
@@ -22,14 +39,14 @@ html {
 	border-radius: 5px;
 }
 
-/* Change the color of links on mouse-over */
+/* To change the color of links on mouse-over */
 .pill-nav a:hover {
 	background-color: #00c2cb;
 	color: whitesmoke;
 	opacity: 0.5;
 }
 
-/* Add a color to the active/current link */
+/* To add a color to the active/current link */
 .pill-nav a.active {
 	background-color: #00c2cb;
 	color: white;
@@ -59,7 +76,7 @@ html {
 }
 .mainHero {
 	text-align: center;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+
 	font-style: italic;
 	color: darkgreen;
 	position: relative;
@@ -74,29 +91,30 @@ html {
 }
 .Video_Heading {
 	color: black;
-	top: -600px;
-	left: 5px;
-	position: absolute;
-	white-space: nowrap;
-}
-.typewriter {
-	color: #00c2cb;
 	top: -500px;
-	left: 5px;
+	left: 100px;
 	position: absolute;
 	white-space: nowrap;
-	overflow: hidden;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 4.5em;
+}
+.txt-rotate {
+	font-style: italic;
+	color: #00c2cb;
 	border-right: .15em solid #00c2cb;
-	margin: 0 auto;
-	letter-spacing: .03em;
 	animation: typewriter .5s steps(8) 1s 1 normal both, blinkTextCursor 750ms steps(100) infinite normal;
+}
+.Divider-text {
+	font-style: normal;
+	font-weight: bolder;
 }
 
 .mainHero_Home {
 	text-align: center;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+
 	font-style: italic;
-	color: white;
+	color: #00c2cb;
 
 	position: relative;
 	top: -150px;
@@ -104,14 +122,14 @@ html {
 	width: 400px;
 	height: 122px;
 	margin-top: -30;
-	margin-left: -500px;
+	margin-left: -350px;
 	opacity: 0.8;
 	padding: 30px;
 	border-radius: 30px;
 }
 .mainHero_Home_About {
 	text-align: center;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+
 	font-style: italic;
 	color: white;
 	background-color: black;
@@ -128,8 +146,8 @@ html {
 }
 .mainHero_Home_Lets_Connect {
 	text-align: center;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-	font-style: italic;
+
+	font-style: normal;
 	color: white;
 	background-color: black;
 	position: relative;
@@ -150,6 +168,74 @@ html {
 }
 .LZstyle:hover {
 	color: green;
+}
+
+.btn {
+	opacity: 0.8;
+}
+
+.btn:hover {
+	background-color: #e91d27;
+}
+.nav-link:hover {
+	border-bottom: 3px solid #00c2cb;
+}
+
+.jumbotron {
+	background-repeat: no-repeat;
+	height: 190vh;
+	width: 174vh;
+	background-size: 0em;
+	background-position: 3em;
+	margin-bottom: 0;
+	margin-top: 0em;
+}
+.jumbotron2 {
+	background-color: white;
+	height: 75vh;
+	margin-bottom: -350px;
+	margin-top: -50px;
+}
+.jumbotron3 {
+	background-color: white;
+	height: 90vh;
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-right: 100px;
+	padding-bottom: 300px;
+	border: #00c2cb solid;
+	border-radius: 50px;
+	border-width: 1.05rem;
+}
+.myVideo {
+	position: static;
+	right: 0;
+	bottom: 0;
+	min-width: 150%;
+	min-height: 100%;
+}
+.myimage {
+	width: 180vh;
+	position: relative;
+}
+
+.jumbotron_About {
+	background-image: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/50763236_10157561199192788_5000973839727853568_o.jpg?_nc_cat=108&_nc_sid=8024bb&_nc_oc=AQnbXVdKwjarqgQH1exKHret6Qs5FkAbOpZoWZDWlSy_K737ibBdDBbwXg1J0o6XyMVpthInjU5MGIlTZ7Yes69L&_nc_ht=scontent-sjc3-1.xx&oh=ed04dbe619cf1e15873c729ed48ee2da&oe=5E96FD88);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-position: auto;
+	margin-bottom: 0;
+	opacity: 0.7;
+}
+.jumbotron_Contact {
+	background-image: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/35282195_394049511099580_4244772069046222848_o.jpg?_nc_cat=101&_nc_sid=8024bb&_nc_oc=AQktRKIMsHGXzszgaQNZtBScYzN2ILKvNzlGyUOB5Tfi-bZkofh04ZoiiPXcVERcSy5EHAhxvtfQiAijQE2L7Dvm&_nc_ht=scontent-sjc3-1.xx&oh=5602cb1853c902b31752db8069cd7202&oe=5E990666);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-position: auto;
+	margin-bottom: 0;
+	opacity: 0.7;
 }
 
 /* About Page */
@@ -208,9 +294,8 @@ html {
 }
 .text-black {
 	color: black;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-		'Helvetica Neue', sans-serif;
 }
+
 .col-md-7 {
 	margin-left: 500px;
 	margin-top: -150px;
@@ -223,7 +308,7 @@ html {
 }
 .btn-danger {
 	border-radius: 10px;
-	padding: 10px 20px;
+	padding: 20px 40px;
 }
 .has-plant {
 	overflow: visible;
@@ -236,6 +321,7 @@ html {
 	max-width: 84em;
 	margin: 0 auto;
 	padding: 0 3em;
+	display: inline-block;
 }
 
 .has-plant:before {
@@ -295,7 +381,7 @@ html {
 	z-index: 1;
 }
 .panel-padded {
-	padding: 19em 2em;
+	padding: 15em 1em;
 }
 .section-text {
 	display: block;
@@ -319,78 +405,14 @@ html {
 	margin-bottom: 2em;
 }
 
-/* Home Page*/
-.hero-btn {
-	margin-top: 20px;
-	opacity: 0.8;
-}
-
-.hero-btn:hover {
-	background-color: black;
-	color: white;
-}
-.nav-link:hover {
-	border-bottom: 3px solid #00c2cb;
-}
-
-.jumbotron {
-	background-repeat: no-repeat;
-	height: 130vh;
-	background-size: over;
-	background-position: center;
-	margin-bottom: 0;
-}
-.jumbotron2 {
-	background-color: white;
-	height: 50vh;
-	margin-bottom: -500px;
-}
-.jumbotron3 {
-	background-color: white;
-	height: 50vh;
-	padding-left: 100px;
-	padding-top: 50px;
-	padding-right: 100px;
-	padding-bottom: 300px;
-	border: #00c2cb solid;
-	border-radius: 50px;
-}
-.myVideo {
-	position: static;
-	right: 0;
-	bottom: 0;
-	min-width: 150%;
-	min-height: 100%;
-}
-.myimage {
-	width: 180vh;
-	position: relative;
-}
-
-.jumbotron_About {
-	background-image: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/50763236_10157561199192788_5000973839727853568_o.jpg?_nc_cat=108&_nc_sid=8024bb&_nc_oc=AQnbXVdKwjarqgQH1exKHret6Qs5FkAbOpZoWZDWlSy_K737ibBdDBbwXg1J0o6XyMVpthInjU5MGIlTZ7Yes69L&_nc_ht=scontent-sjc3-1.xx&oh=ed04dbe619cf1e15873c729ed48ee2da&oe=5E96FD88);
-	background-repeat: no-repeat;
-	height: 100vh;
-	background-size: cover;
-	background-position: auto;
-	margin-bottom: 0;
-	opacity: 0.7;
-}
-.jumbotron_Contact {
-	background-image: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/35282195_394049511099580_4244772069046222848_o.jpg?_nc_cat=101&_nc_sid=8024bb&_nc_oc=AQktRKIMsHGXzszgaQNZtBScYzN2ILKvNzlGyUOB5Tfi-bZkofh04ZoiiPXcVERcSy5EHAhxvtfQiAijQE2L7Dvm&_nc_ht=scontent-sjc3-1.xx&oh=5602cb1853c902b31752db8069cd7202&oe=5E990666);
-	background-repeat: no-repeat;
-	height: 100vh;
-	background-size: cover;
-	background-position: auto;
-	margin-bottom: 0;
-	opacity: 0.7;
-}
-
 /* Contact Page  */
 
 .mb3 {
-	margin-top: 100px;
+	margin-top: -50px;
 	margin-bottom: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	max-width: 94%;
 }
 .mb4 {
 	margin-top: 50px;
@@ -401,13 +423,17 @@ html {
 }
 .form-group {
 	width: 800px;
+	margin-top: 4em;
+	margin-left: 2.3em;
+	font-weight: bolder;
+	font-size: 1.5rem;
 }
 
 .about-img2 {
 	position: absolute;
 	bottom: 50px;
-	top: 0px;
-	left: 850px;
-	width: 350px;
-	height: 350px;
+	top: 50px;
+	left: 800px;
+	width: 400px;
+	height: 400px;
 }
